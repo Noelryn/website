@@ -13,10 +13,10 @@ describe('vistor can see home page', () => {
     cy.contains('Project Page!')
   })
 
-  it('has social media icon links', () => {
-    cy.contains('linkedin-icon').click()
-    cy.contains('Noel Ryan')
-  })
+  // it('has social media icon links', () => {
+  //   cy.contains('linkedin-icon').click()
+  //   cy.contains('Noel Ryan')
+  // })
 
 
 
